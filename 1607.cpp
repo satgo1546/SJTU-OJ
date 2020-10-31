@@ -5,7 +5,7 @@ using namespace std;
 
 struct node {
 	int g; // 团体号
-  int next; // 链式队列中下一个节点的下标
+	int next; // 链式队列中下一个节点的下标
 };
 
 int n;
@@ -34,7 +34,7 @@ int main(int argc, char *argv[]) {
 				puts("-1");
 				continue;
 			}
-      // 输出的“编号”是指此人第几个入队。
+			// 输出的“编号”是指此人第几个入队。
 			printf("%d\n", head + 1);
 			if (grouptail[a[head].g] == head) {
 				grouptail.erase(a[head].g);

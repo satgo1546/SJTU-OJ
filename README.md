@@ -2,4 +2,6 @@
 
 系统地址：https://acm.sjtu.edu.cn/OnlineJudge/
 
+同步发布在解答集上：https://oj.sjtucs.com/
+
 解答的协议：The Unlicense
